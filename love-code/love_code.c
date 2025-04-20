@@ -16,7 +16,7 @@ int main()
 		for(x=-1.5f;x<1.5f;x+=.05f){
 			a=x*x+y*y-1;
 			putchar(a*a*a-x*x*y*y*y<0.0f?'x':' ');
-		}  
+		}
 		
 		Sleep(100);//Í£¶Ùº¯Êý£¨1.5ÃëÖÓ£© 
 		putchar('\n'); //»»ÐÐ 
