@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<Windows.h>
 #include <locale.h>  // 新增locale头文件
-
+ 
 int main()
 {
     setlocale(LC_ALL, "chs");  // 设置本地化支持
