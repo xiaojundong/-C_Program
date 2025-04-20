@@ -17,8 +17,7 @@ int main()
 			a=x*x+y*y-1;
 			putchar(a*a*a-x*x*y*y*y<0.0f?'x':' ');
 		}
-		
-		Sleep(100);//Í£¶Ùº¯Êı£¨1.5ÃëÖÓ£© 
+		Sleep(100);//Í£¶Ùº¯Êı£¨1ÃëÖÓ£© 
 		putchar('\n'); //»»ĞĞ 
 	}
 	putchar('\n'); //»»ĞĞ 
